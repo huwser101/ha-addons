@@ -49,4 +49,3 @@ jobs:
           git add tailscale/Dockerfile tailscale/config.yaml
           git commit -m "Update Tailscale to ${{ steps.tailscale.outputs.latest }}"
           git push
-EOF
